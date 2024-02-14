@@ -1,0 +1,14 @@
+[package]
+name = "incant"
+version = "0.0.0-unreleased"
+edition = "2021"
+description = "a somewhat-modern text editor"
+authors = ["Oluwadamilola Oregunwa <beckhamoregunwa@gmail.com>"]
+license = "GPL-3.0-or-later"
+repository = "https://github.com/mikky-j/incant"
+
+[[bin]]
+name = "ic"
+path = "src/main.rs"
+
+[dependencies]
